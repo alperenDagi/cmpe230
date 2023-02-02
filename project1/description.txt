@@ -1,3 +1,7 @@
 In this, we implemented a translator for a language called Mathlang that will translate Mathlang code to C language code.
-First of all, we read the file line by line. For every line, we replace space before and after the characters which don’t have space between the next character with the spacer function. Then split all lines from the spaces and, create tokens. We compare the first token and determine the line type. After the line type is determined, we check the syntax of a line. If a line passes the syntax check, the line is translated to the C language code and concatenated to the string which is written on the output file.
+First of all, we read the file line by line. 
+For every line, we replace space before and after the characters which don’t have space between the next character with the spacer function. 
+Then split all lines from the spaces and, create tokens. We compare the first token and determine the line type. 
+After the line type is determined, we check the syntax of a line. 
+If a line passes the syntax check, the line is translated to the C language code and concatenated to the string which is written on the output file.
 These are the functions that we implement.
